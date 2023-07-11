@@ -11,7 +11,7 @@ builder.Services.AddCors(options =>
             builder
             .AllowAnyMethod()
             .AllowAnyHeader()
-             .WithOrigins("http://localhost:3000", "https://appname.azurestaticapps.net");
+             .WithOrigins("http://localhost:3000", "https://witty-ground-09d843e10.3.azurestaticapps.net");
         });
 });
 
